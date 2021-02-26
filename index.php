@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $faqs = [
     [
@@ -70,20 +70,40 @@ $faqs = [
         </div>
     </header>
 
-    <main> 
+    <main>
         <section id="faq">
             <div class="contenitore">
                 <?php
-                    foreach ( $faqs as $faq ) {
-                        $domanda = $faq['domanda'];
-                        $risposta = $faq['risposta'];
+                foreach ($faqs as $faq) {
+                    $domanda = $faq['domanda'];
+                    $risposta = $faq['risposta'];
                 ?>
-                <h3><?= $domanda ?></h3>
-                <p><?= $risposta ?></p>
+                    <h3><?= $domanda ?></h3>
+                    <p><?= $risposta ?></p>
                 <?php } ?>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="contenitore">
+            <div class="sx">
+                <ul>
+                    <li>Google</li>
+                    <li>Tutto su Google</li>
+                    <li>Privacy</li>
+                    <li>Termini</li>
+                </ul>
+            </div>
+            <div class="dx">
+                <select>
+                    <option value="italiano">Italiano</option>
+                    <option value="inglese">Inglese</option>
+                    <option value="francese">Francese</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
