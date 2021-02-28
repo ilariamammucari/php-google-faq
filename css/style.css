@@ -83,8 +83,12 @@ main #faq .contenitore h3 {
 }
 
 main #faq .contenitore p {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     line-height: 1.6;
+}
+
+ol li {
+    line-height: 2;
 }
 
 footer {
