@@ -35,6 +35,7 @@ $faqs = [
 
                     <li> Google LLC, con sede negli Stati Uniti, per il resto del mondo. </li>
                 </ol>
+            </li>
                 
             <li> La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li>
         </ol>
